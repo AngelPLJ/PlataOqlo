@@ -1,9 +1,12 @@
 #include <iostream>
 
-using namepace std;
+using namespace std;
 
 int main(int argc, char *argv[])
 {
-	cout << "Hola Mundo";
+	if(tolower('B') < tolower('A'))
+		cout << "Hola Mundo";
+	else 
+		cout << "B es menor que A";
 	return 1;
 }

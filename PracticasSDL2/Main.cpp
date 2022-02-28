@@ -1,11 +1,10 @@
-#include "SDL.h"
+#include"Menu.cpp"
 
 using namespace std;
 
 int main(int argc, char *arv[])
 {
-    SDL_Init(SDL_INIT_EVERYTHING);
-
-    SDL_Quit();
+    Menu menuDeInicio;
+    menuDeInicio.mostrarMenu();
     return 0;
 }
